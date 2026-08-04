@@ -342,7 +342,7 @@ export const BATCHES: BatchConfig[] = [
   // --------------------------------------------------------------------------
   {
     id: 'batch-2024-2028',
-    label: 'Batch 2024 - 2028 (3rd Year)',
+    //label: 'Batch 2024 - 2028 (3rd Year)',
     semesters: {
       "1": { 
         // label: "Semester 4", 
