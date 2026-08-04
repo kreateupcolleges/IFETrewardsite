@@ -9,10 +9,10 @@ import { BatchConfig } from './types';
  */
 export const INSTITUTION_CONFIG = {
   // Display Name appearing in the Header
-  name: "AVSEC Reward Points Site", 
+  name: "IFET Reward Points Site", 
   
   // URL to the college logo (Direct link to image)
-logoUrl: "https://lh3.googleusercontent.com/d/1HAi70zVEf7sfLXk4H8W7uPF_rbHMmqC9=w500"
+logoUrl: "https://drive.google.com/file/d/1TcyyunuqWj09gXTHrZpS6-Zkz40k5bqf/view?usp=sharing"
 };
 
 /**
@@ -50,12 +50,12 @@ export const BATCHES: BatchConfig[] = [
     label: 'Batch 2025 - 2029 (2nd Year)',
     semesters: {
       "1": { 
-        label: "Semester 2", 
+        label: "Semester 3", 
         internals: ["IP1", "IP2"],
         
         // --- SEMESTER 1 SHEETS ---
         rewardSheets: {
-          IP1: { id: "1GqEDM-6xNqx6_rxq3YTqV34ayOuobFofWBUfOkU4n6E", name: "AVS_2025-2029_All_S3_IP1_RewardSplit" }
+          IP1: { id: "13X3Ox0D1WapVTNQ9hdQg96QHf9eq-TQHytqnxtq5OJY", name: "IFET_2025-2029_All_S3_IP1_RewardSplit" }
           // IP2: { id: "1cJc1Vc2PSAo6hUlGJSX_8R4jUnjzHA", name: "RCS_1styear_IP2_RewardsSplit" }
         },
         
@@ -345,12 +345,12 @@ export const BATCHES: BatchConfig[] = [
     label: 'Batch 2024 - 2028 (3rd Year)',
     semesters: {
       "1": { 
-        label: "Semester 4", 
-        internals: ["IP1", "IP2"],
+        // label: "Semester 4", 
+        //internals: ["IP1", "IP2"],
         
         // Reward Sheets for 2nd Year (using dummy IDs from 1st year for demo)
         rewardSheets: {
-          "IP1": { id: "1izJQt4cFV68-9HuPz3nHSAyITwLqakMxswyFwSPjUmI", name: "AVS_2024-2028_All_S5_IP1_RewardSplit" }
+          //"IP1": { id: "1izJQt4cFV68-9HuPz3nHSAyITwLqakMxswyFwSPjUmI", name: "AVS_2024-2028_All_S5_IP1_RewardSplit" }
           // "IP2": { id: "1cJc1Vc2PSR4jUnjzHA", name: "RCS_1styear_IP2_RewardsSplit" }
         },
         
