@@ -12,7 +12,7 @@ export const INSTITUTION_CONFIG = {
   name: "IFET Reward Points Site", 
   
   // URL to the college logo (Direct link to image)
-logoUrl: "https://drive.google.com/file/d/1TcyyunuqWj09gXTHrZpS6-Zkz40k5bqf/view?usp=sharing"
+logoUrl: "https://drive.google.com/uc?export=view&id=1TcyyunuqWj09gXTHrZpS6-Zkz40k5bqf"
 };
 
 /**
